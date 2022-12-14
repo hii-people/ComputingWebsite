@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
-  font-family: 'Audiowide', sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Audiowide', 'sans-serif';
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   line-height: 1.58;
   letter-spacing: -.003em;
   padding: 70px;
+  background-color: #3B719F;
+  /*background-image: url("../Images/Background(2).png");
+  background-opacity: */
 }
 /*
 #my{
-zoom: 70%;
+zoom: 140%;
 }
 */
 
@@ -18,7 +21,6 @@ zoom: 70%;
 	float:left;
 	margin: 2px; 
 	width:1250px;
-	text-align: center;
 	
 }
 
@@ -44,24 +46,31 @@ zoom: 70%;
 
 
 h1 {
-	float:center;
+	text-align: center;
 	color: red;
 	font-family: Audiowide;
 	size: 40px;
 }
 h2{
 	color: red;
-	float: center;
+	text-align: center;
 	font-family: Audiowide;
 	size: 30px;
 
 }
+h3{
+	color: red;
+	text-align: center;
+	font-family: Audiowide;
+	size: 20px;
+}
+
 .navbar{
 	text-decoration: none;
 	font: center;
 	font-family: Audiowide;
 	size: 18px;
-padding: 14px 16px;
+	padding: 14px 16px;
 }
 .navbar:link {
   text-decoration: none;
@@ -97,8 +106,9 @@ padding: 14px 16px;
 
 .dropdown .dropbtn {
   font-size: 16px;
-  padding: 14px 16px;
+  padding: 14px;
   font-family: Audiowide;
+color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -144,3 +154,17 @@ padding: 14px 16px;
 	text-align: center;
 }
 
+.RISC{
+	color: blue;
+	width: 425px;
+	border:1px solid blue;
+	margin-left: 3px;
+
+}
+
+.CISC{
+	color: red;
+	border: 1px solid red;
+	width: 425px;
+	margin-right: 150x;
+}
